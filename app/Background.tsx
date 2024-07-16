@@ -8,9 +8,10 @@ export const Background = () => {
       </div>
     <div className="banner max-w-full bg-banner1">
       </div>
-    <div className="banner max-w-full bg-banner2">
+    <div className="banner max-w-full bg-background">
       </div>
-      <div className="relative flex flex-c  ol md:flex-row items-center justify-center min-h-screen p-6 bg-gradient-to-r from-[var(--background)] to-[var(--secondary)] text-[var(--foreground)]">
+      <div className='bg-about-bg bg-no-repeat bg-contain'>
+      <div className="relative flex flex-col md:flex-row items-center justify-center min-h-screen p-6 bg-gradient-to-r from-[var(--background)] to-[var(--secondary)] text-[var(--foreground)]">
       <div className="flex-1 flex justify-center items-center relative">
         <Image 
         src="/images/bg-img4.jpg"
@@ -35,6 +36,7 @@ export const Background = () => {
         </a>
       </div>
     </div>
+      </div>
     </>
   )
 }
