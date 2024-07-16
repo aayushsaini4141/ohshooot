@@ -11,7 +11,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <div className="bg-img bg-banner-bg fixed top-0 w-full">
+      <div className="bg-img bg-background fixed top-0 w-full">
         <div className="fixed top-0 z-10 flex flex-1 justify-between items-center h-20 w-full border-b-2 border-gray-500 px-4 lg:px-20 xl:px-60">
           <div className="text-white font-black text-3xl md:w-full md:text-center lg:text-left lg:w-auto lg:mr-10 xl:mr-0 xl:ml-[-10px]">
             <h2>OhShooot</h2>

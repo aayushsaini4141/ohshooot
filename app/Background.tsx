@@ -4,7 +4,7 @@ import Image from 'next/image';
 export const Background = () => {
   return (
     <>
-    <div className="banner max-w-full bg-banner-bg">
+    <div className="banner max-w-full bg-banner">
       </div>
     <div className="banner max-w-full bg-banner1">
       </div>
