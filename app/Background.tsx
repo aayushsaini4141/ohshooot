@@ -8,8 +8,8 @@ export const Background = () => {
       </div>
     <div className="banner max-w-full bg-banner1">
       </div>
-    <div className="banner max-w-full bg-banner-bg">
-      </div>
+    {/* <div className="banner max-w-full bg-banner-bg">
+      </div> */}
       <div className='bg-about-bg bg-no-repeat bg-contain'>
       <div className="relative flex flex-col md:flex-row items-center justify-center min-h-screen p-6 bg-gradient-to-r from-[var(--background)] to-[var(--secondary)] text-[var(--foreground)]">
       <div className="flex-1 flex justify-center items-center relative">
