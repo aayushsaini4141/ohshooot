@@ -2,32 +2,164 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.bg-img {
+  
+    min-height: 945px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  .banner {
+    min-height: 945px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
-}
+  .about {
+    min-height: 500px;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .flex {
+    @apply flex;
+  }
+  .flex-col {
+    @apply flex-col;
+  }
+  .items-center {
+    @apply items-center;
+  }
+  .bg-background {
+    @apply bg-background;
+  }
+  .text-foreground {
+    @apply text-foreground;
+  }
+  .p-8 {
+    @apply p-8;
+  }
+  .w-full {
+    @apply w-full;
+  }
+  .max-w-6xl {
+    @apply max-w-6xl;
+  }
+  .shadow-lg {
+    @apply shadow-lg;
+  }
+  .rounded-lg {
+    @apply rounded-lg;
+  }
+  .overflow-hidden {
+    @apply overflow-hidden;
+  }
+  .bg-gradient {
+    @apply bg-gradient-to-r from-secondary to-primary;
+  }
+  .text-secondary-foreground {
+    @apply text-secondary-foreground;
+  }
+  .md\:w-1\/2 {
+    @apply md:w-1/2;
+  }
+  .text-lg {
+    @apply text-lg;
+  }
+  .leading-relaxed {
+    @apply leading-relaxed;
+  }
+  .text-primary-foreground {
+    @apply text-primary-foreground;
+  }
+  .mt-4 {
+    @apply mt-4;
+  }
+  .inline-block {
+    @apply inline-block;
+  }
+  .relative {
+    @apply relative;
+  }
+  .p-4 {
+    @apply p-4;
+  }
+  .justify-center {
+    @apply justify-center;
+  }
+  .absolute {
+    @apply absolute;
+  }
+  .inset-0 {
+    @apply inset-0;
+  }
+  .h-full {
+    @apply h-full;
+  }
+  .object-cover {
+    @apply object-cover;
+  }
+  .opacity-50 {
+    @apply opacity-50;
+  }
+  .text-6xl {
+    @apply text-6xl;
+  }
+  .font-bold {
+    @apply font-bold;
+  }
+  .text-primary {
+    @apply text-primary;
+  }
+  .grid {
+    @apply grid;
+  }
+  .grid-cols-1 {
+    @apply grid-cols-1;
+  }
+  .md\:grid-cols-4 {
+    @apply md:grid-cols-4;
+  }
+  .gap-8 {
+    @apply gap-8;
+  }
+  .mt-8 {
+    @apply mt-8;
+  }
+  .group {
+    @apply group;
+  }
+  .transition-opacity {
+    @apply transition-opacity;
+  }
+  .duration-300 {
+    @apply duration-300;
+  }
+  .opacity-75 {
+    @apply opacity-75;
+  }
+  .bg-black {
+    @apply bg-black;
+  }
+  .bg-opacity-25 {
+    @apply bg-opacity-25;
+  }
+  .bg-opacity-50 {
+    @apply bg-opacity-50;
+  }
+  .transition-all {
+    @apply transition-all;
+  }
+  .text-2xl {
+    @apply text-2xl;
+  }
+  
+ 
